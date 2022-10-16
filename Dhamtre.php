@@ -4,9 +4,9 @@ Provider Tri
 */
 echo @color("white","───────────────────────────────────────────────\n");
 echo @color("green","                  PAKET TRE MURAH                 \n");
-echo @color("green","                    by:author dhams                  \n");
+echo @color("green","                  by:author dhams                  \n");
 echo @color("white","───────────────────────────────────────────────\n");
-echo @color('purple', "Masukkan Nomor Tri lu tod\t\t: ");
+echo @color('purple', "Masukkan Nomor Tri lu anjg\t\t: ");
 $nomor = trim(fgets(STDIN));
 $login = login($nomor);
 echo @color('green', $login['message']."\n");
